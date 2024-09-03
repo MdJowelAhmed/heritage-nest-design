@@ -1,12 +1,15 @@
 import React from 'react';
+import { AiOutlineDollar, AiTwotonePropertySafety } from 'react-icons/ai';
 import { CiSearch } from "react-icons/ci";
+import { IoLocationOutline } from 'react-icons/io5';
+import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
 
 const FindProperties = () => {
     return (
         <div style={{
             backgroundImage: " url(https://static.vecteezy.com/system/resources/previews/041/461/103/non_2x/ai-generated-luxurious-hotel-room-with-a-breathtaking-view-of-the-bustling-city-below-showcasing-towering-skyscrapers-and-vibrant-city-lights-photo.jpeg)",
-        }} className='h-[309px] parent-container relative'>
-            <div className='w-[800px] h-96 shadow-xl bg-white  child-card absolute -top-50% left-1/2 transform -translate-x-1/2 translate-y-1/2 p-8'>
+        }} className='h-[309px] parent-container relative max-w-[1440px] mx-auto'>
+            <div className='w-[870px] h-[350px] shadow-xl bg-white  child-card absolute -top-30% left-1/2 transform -translate-x-1/2 translate-y-1/4 p-8 rounded-sm '>
                 <div>
                     <ul className='flex gap-8 text-[#0059B1]'>
                         <li className='border-b-2 border-blue-950'>Buy</li>
@@ -19,7 +22,49 @@ const FindProperties = () => {
                     <hr />
                     <div className='flex gap-4 mt-10 relative text-center justify-center'>
                         <CiSearch className='absolute left-4 top-3' />
-                        <input type="text" placeholder='Search Properties' className='border-2 pl-10 py-1 w-full'/>
+                        <input type="text" placeholder='Search Properties' className='border-2 pl-10 py-1 w-full mb-[46px]' />
+                    </div>
+
+                    <div className='flex gap-8 mb-8'>
+                        {/* location  */}
+                        <div>
+                            <div className='flex  items-center mb-4 gap-2'>
+                                <IoLocationOutline />
+                                <h3>Location</h3>
+                            </div>
+                            <div className='relative'>
+                                <input type="text" className='border-2 bg-[#ECF5FF]' />
+                                <MdOutlineKeyboardArrowDown className='absolute top-1 left-36' />
+                            </div>
+                        </div>
+
+                        {/* property type  */}
+                        <div>
+                            <div className='flex  items-center mb-4 gap-2'>
+                                <AiTwotonePropertySafety />
+                                <h3>property Type</h3>
+                            </div>
+                            <div className='relative'>
+                                <input type="text" className='border-2 bg-[#ECF5FF]' />
+                                <MdOutlineKeyboardArrowDown className='absolute top-1 left-36' />
+                            </div>
+                        </div>
+
+                        {/* budget  */}
+                        <div>
+                            <div className='flex  items-center mb-4 gap-2'>
+                                <AiOutlineDollar />
+                                <h3>Budget</h3>
+                            </div>
+                            <div className=''>
+                                <input type="text" className='border-2 bg-[#ECF5FF]' />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex bg-[#0059B1] px-6 py-1 text-center items-center justify-center gap-4 rounded-md mx-auto'>
+                        <CiSearch />
+                        <p className='font-montserrat w-full text-white'>Find Property</p>
                     </div>
                 </div>
             </div>

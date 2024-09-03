@@ -1,12 +1,14 @@
 import React from 'react';
 import Navbar from '../../components/Navbar';
 import FindProperties from './FindProperties';
+import CardSection from './CardSection';
 
 const Buyer = () => {
     return (
         <div>
            <Navbar/>
-           <FindProperties/>
+           <FindProperties />
+           <CardSection/>
         </div>
     );
 };
