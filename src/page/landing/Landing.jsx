@@ -5,6 +5,7 @@ const Landing = () => {
     return (
         <div>
            <Navbar/>
+           ami
         </div>
     );
 };
