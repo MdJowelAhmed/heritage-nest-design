@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from '../../components/Navbar';
+import Banner from './Banner';
 
 const Landing = () => {
     return (
         <div>
-           <Navbar/>
-           ami
+            <Navbar />
+            <Banner />
         </div>
     );
 };
