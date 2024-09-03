@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='shadow-md bg-[#ECF5FF] max-w-[1440px] mx-auto'>
             <header className="my-7 mx-24">
                 <div className="container flex justify-between h-16 mx-auto">
-                    <nav className="items-stretch hidden space-x-3 lg:flex">
+                    <nav className="  space-x-3 flex items-center ">
                         <li className='list-none'><Link to='/buyer'>Buy </Link></li>
                         <li className='list-none'><Link to='/buyer'>Sel </Link></li>
                         <li className='list-none'><Link to='/buyer'>Service </Link></li>

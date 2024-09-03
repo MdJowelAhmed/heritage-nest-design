@@ -3,6 +3,7 @@ import { AiOutlineDollar, AiTwotonePropertySafety } from 'react-icons/ai';
 import { CiSearch } from "react-icons/ci";
 import { IoLocationOutline } from 'react-icons/io5';
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const FindProperties = () => {
     return (
@@ -62,10 +63,12 @@ const FindProperties = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex bg-[#0059B1] px-6 py-1 text-center items-center justify-center gap-4 rounded-md mx-auto'>
-                        <CiSearch />
-                        <p className='font-montserrat w-full text-white'>Find Property</p>
-                    </div>
+                    <Link to='/search'>
+                        <div className='flex bg-[#0059B1] py-2 text-center items-center justify-center gap-4 rounded-md mx-auto'>
+
+                            <p className='font-montserrat w-full text-white'>Find Property</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

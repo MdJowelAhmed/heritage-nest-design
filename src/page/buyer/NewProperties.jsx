@@ -1,14 +1,13 @@
-import { CiImageOn } from "react-icons/ci";
-import { FaRegSquare } from "react-icons/fa";
-import { IoLocationOutline } from "react-icons/io5";
+import React from 'react';
+import { CiImageOn } from 'react-icons/ci';
+import { IoLocationOutline } from 'react-icons/io5';
 
-
-const PopularProperties = () => {
+const NewProperties = () => {
     return (
         <div className="max-w-[1216px] mx-auto mb-[76px]">
             <div >
                 <div className="flex justify-between mb-6">
-                    <h3 className="text-[32px] font-montserrat">Popular Properties</h3>
+                    <h3 className="text-[32px] font-montserrat">New Listed Properties</h3>
                     <p className="text-[#0059B1] font-poppins">See All Property</p>
                 </div>
                 <div className="flex gap-8">
@@ -104,4 +103,4 @@ const PopularProperties = () => {
     );
 };
 
-export default PopularProperties;
+export default NewProperties;

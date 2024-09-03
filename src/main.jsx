@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Landing from './page/landing/Landing.jsx';
 import Buyer from './page/buyer/Buyer.jsx';
+import SearchResult from './page/searchResult/SearchResult.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/buyer",
     element: <Buyer />,
+  },
+  {
+    path: "/search",
+    element: <SearchResult />,
   },
 ]);
 
