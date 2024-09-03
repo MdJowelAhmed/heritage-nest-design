@@ -11,7 +11,7 @@ const Banner = () => {
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-neutral-content text-center">
                 <div className="max-w-2xl">
-                    <h1 className="mb-8 text-6xl font-montserrat font-bold">Your Portal to India's Exquisite Real Estate</h1>
+                    <h1 className="mb-8 text-6xl font-montserrat font-bold leading-[72px]">Your Portal to India's Exquisite Real Estate</h1>
                     <p className="mb-16 font-poppins font-medium">
                         Seamlessly connecting you to the heartbeat of India's prime properties.
                     </p>
