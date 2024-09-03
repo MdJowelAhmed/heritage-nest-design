@@ -6,11 +6,16 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Landing from './page/landing/Landing.jsx';
+import Buyer from './page/buyer/Buyer.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Landing />,
+  },
+  {
+    path: "/buyer",
+    element: <Buyer />,
   },
 ]);
 
