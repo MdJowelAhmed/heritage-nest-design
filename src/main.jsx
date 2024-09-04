@@ -8,6 +8,7 @@ import {
 import Landing from './page/landing/Landing.jsx';
 import Buyer from './page/buyer/Buyer.jsx';
 import SearchResult from './page/searchResult/SearchResult.jsx';
+import PropertyDetails from './page/propertyDetails/PropertyDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/search",
     element: <SearchResult />,
+  },
+  {
+    path: "/details",
+    element: <PropertyDetails />,
   },
 ]);
 

@@ -2,6 +2,7 @@ import { BiLoaderCircle } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
 import { LuSquare } from "react-icons/lu";
 import { TbLoader, TbSquarePercentage } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 
 const Results = () => {
@@ -18,7 +19,7 @@ const Results = () => {
 
 
                 <div className="space-y-8">
-                    <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
+                    <Link to='/details'>  <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRijDUNfjCyxXZ3bgJDkZr8H7Nyzy2TsKFPIQ&s" alt="hotel pic" className="h-[184px] w-40" />
 
                         <div>
@@ -60,9 +61,10 @@ const Results = () => {
                             </div>
                         </div>
                     </div>
+                    </Link>
 
 
-                    <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
+                    <Link to='/details'>  <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRijDUNfjCyxXZ3bgJDkZr8H7Nyzy2TsKFPIQ&s" alt="hotel pic" className="h-[184px] w-40" />
 
                         <div>
@@ -104,9 +106,10 @@ const Results = () => {
                             </div>
                         </div>
                     </div>
+                    </Link>
 
 
-                    <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
+                    <Link to='/details'>  <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRijDUNfjCyxXZ3bgJDkZr8H7Nyzy2TsKFPIQ&s" alt="hotel pic" className="h-[184px] w-40" />
 
                         <div>
@@ -148,9 +151,10 @@ const Results = () => {
                             </div>
                         </div>
                     </div>
+                    </Link>
 
 
-                    <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
+                    <Link to='/details'>  <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRijDUNfjCyxXZ3bgJDkZr8H7Nyzy2TsKFPIQ&s" alt="hotel pic" className="h-[184px] w-40" />
 
                         <div>
@@ -192,9 +196,9 @@ const Results = () => {
                             </div>
                         </div>
                     </div>
+                    </Link>
 
-
-                    <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
+                    <Link to='/details'>  <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRijDUNfjCyxXZ3bgJDkZr8H7Nyzy2TsKFPIQ&s" alt="hotel pic" className="h-[184px] w-40" />
 
                         <div>
@@ -236,9 +240,9 @@ const Results = () => {
                             </div>
                         </div>
                     </div>
+                    </Link>
 
-
-                    <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
+                    <Link to='/details'>  <div className="flex gap-8 w-[800px] h-[232px] p-6 bg-[#F9FAFB]">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRijDUNfjCyxXZ3bgJDkZr8H7Nyzy2TsKFPIQ&s" alt="hotel pic" className="h-[184px] w-40" />
 
                         <div>
@@ -280,6 +284,7 @@ const Results = () => {
                             </div>
                         </div>
                     </div>
+                    </Link>
 
 
                 </div >
