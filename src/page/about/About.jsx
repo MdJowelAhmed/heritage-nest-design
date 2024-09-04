@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar';
 import SubBanner from './SubBanner';
 import CardSection2 from './CardSection2';
 import RelativeCard from './RelativeCard';
+import OurTeam from './OurTeam';
 
 const About = () => {
     return (
@@ -11,6 +12,7 @@ const About = () => {
            <SubBanner/>
            <CardSection2/>
            <RelativeCard/>
+           <OurTeam/>
         </div>
     );
 };
