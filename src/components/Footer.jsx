@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='w-full p-16 bg-[#ECF5FF] flex flex-wrap justify-center gap-20 mx-auto'>
-            <div className='w-80 text-center'>
-                <img src="https://static.vecteezy.com/system/resources/previews/007/710/760/original/vintage-nature-logo-design-for-your-company-or-business-vector.jpg" alt="logo" className='w-16 h-28 object-cover mx-auto' />
+        <div className='max-w-[1440px] p-16 bg-[#ECF5FF] flex flex-wrap justify-center gap-20 mx-auto'>
+            <div className='w-80 '>
+                <img src="https://static.vecteezy.com/system/resources/previews/007/710/760/original/vintage-nature-logo-design-for-your-company-or-business-vector.jpg" alt="logo" className='w-16 h-28 object-cover ' />
                 <p className='text-[#475467]'>Design amazing digital experiences that create more happy in the world.</p>
             </div>
             <div className='text-center'>

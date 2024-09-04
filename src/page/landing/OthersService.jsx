@@ -3,7 +3,7 @@ import { AiOutlineHome } from "react-icons/ai";
 
 const OthersService = () => {
     return (
-        <div className="container px-10 mb-16">
+        <div className="mx-auto max-w-[1216px] px-10 mb-16">
             <h1 className="text-4xl font-montserrat font-bold text-center mb-16 text-[#333333]">Others Service</h1>
 
             <div className="flex justify-center gap-8">

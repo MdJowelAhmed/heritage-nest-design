@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 const Banner = () => {
     return (
         <div
-            className="hero h-[544px] mb-20"
+            className="max-w-[1440px] mx-auto hero h-[544px] mb-20"
             style={{
                 backgroundImage: "linear-gradient(to top, #000000, #000000b8, #00000000), url(https://images.pexels.com/photos/6000576/pexels-photo-6000576.jpeg?cs=srgb&dl=pexels-mmrshanto70-6000576.jpg&fm=jpg)",
             }}>
