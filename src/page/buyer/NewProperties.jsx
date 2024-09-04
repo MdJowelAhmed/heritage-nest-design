@@ -1,5 +1,6 @@
 import React from 'react';
 import { CiImageOn } from 'react-icons/ci';
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { IoLocationOutline } from 'react-icons/io5';
 
 const NewProperties = () => {
@@ -15,6 +16,7 @@ const NewProperties = () => {
                     <div className="w-[385px] p-6 shadow-md">
                         <div className="mb-6 relative">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBiAgaz7A7W0JoLoRcvunOGe7RbGRReAEJYg&s" alt="hotel" className="w-[385px] h-[200px]" />
+                            <IoIosArrowBack className='absolute left-1 top-1/2 text-4xl bg-blue-400 p-2 rounded-full'/>
                             <div className="absolute flex items-center gap-2 bg-white bottom-5 left-3 px-2">
                                 <CiImageOn />
                                 <span>20</span>
@@ -40,7 +42,7 @@ const NewProperties = () => {
                         </div>
                     </div>
 
-                    {/* 1st card  */}
+                    {/* 2nd card  */}
                     <div className="w-[385px] p-6 shadow-md">
                         <div className="mb-6 relative">
                             <img src="https://media.istockphoto.com/id/1050564510/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=ZYEso7dgPl889aYddhY2Fj3GOyuwqliHkbbT8pjl_iM=" alt="hotel" className="w-[385px] h-[200px]" />
@@ -73,6 +75,7 @@ const NewProperties = () => {
                     <div className="w-[385px] p-6 shadow-md">
                         <div className="mb-6 relative">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb0qvcx38xOZNPiLwbLwOa8K8LWP2S1m30Em6iL9Wc6z3QxP7_GgONmtr54_pqbZA29po&usqp=CAU" alt="hotel" className="w-[385px] h-[200px]" />
+                            <IoIosArrowForward className='text-4xl bg-blue-400 p-2 rounded-full absolute top1/2 right-0 bottom-20' />
                             <div className="absolute flex items-center gap-2 bg-white bottom-5 left-3 px-2">
                                 <CiImageOn />
                                 <span>20</span>

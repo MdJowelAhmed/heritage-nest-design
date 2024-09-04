@@ -38,6 +38,11 @@ const Testimonials = () => {
                     </div>
                 </div>
             </div>
+            <div className="flex justify-center space-x-2 mt-4">
+                <span className="w-5 h-2 bg-orange-500 rounded-md inline-block"></span>
+                <span className="w-3 h-2 bg-gray-300 rounded-full inline-block"></span>
+                <span className="w-3 h-2 bg-gray-200 rounded-full inline-block"></span>
+            </div>
         </div>
     );
 };

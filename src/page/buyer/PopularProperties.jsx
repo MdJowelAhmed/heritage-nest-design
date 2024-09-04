@@ -1,5 +1,6 @@
 import { CiImageOn } from "react-icons/ci";
 import { FaRegSquare } from "react-icons/fa";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 
 
@@ -16,6 +17,7 @@ const PopularProperties = () => {
                     <div className="w-[385px] p-6 shadow-md">
                         <div className="mb-6 relative">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd8u9kRmO8Q0_g8qRQ5Ka_IkXoV03QtStUMw&s" alt="hotel" className="w-[385px] h-[200px]" />
+                            <IoIosArrowBack className='absolute left-1 top-1/2 text-4xl bg-blue-400 p-2 rounded-full'/>
                             <div className="absolute flex items-center gap-2 bg-white bottom-5 left-3 px-2">
                                 <CiImageOn />
                                 <span>20</span>
@@ -41,7 +43,7 @@ const PopularProperties = () => {
                         </div>
                     </div>
 
-                    {/* 1st card  */}
+                    {/* 2nd card  */}
                     <div className="w-[385px] p-6 shadow-md">
                         <div className="mb-6 relative">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeJPMyQRuFO6ADL4V5fNeK80N48vmuKwZdXQ&s" alt="hotel" className="w-[385px] h-[200px]" />
@@ -70,10 +72,11 @@ const PopularProperties = () => {
                         </div>
                     </div>
 
-                    {/* 1st card  */}
+                    {/* 3th card  */}
                     <div className="w-[385px] p-6 shadow-md">
                         <div className="mb-6 relative">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkakFZ2cK_DHjcLtWlB71cmSthnZx4AmZeTNXdgsa4sMe2r1TLzhm4iCG-Ppsk8CQnnQ&usqp=CAU" alt="hotel" className="w-[385px] h-[200px]" />
+                            <IoIosArrowForward className='text-4xl bg-blue-400 p-2 rounded-full absolute top1/2 right-0 bottom-20' />
                             <div className="absolute flex items-center gap-2 bg-white bottom-5 left-3 px-2">
                                 <CiImageOn />
                                 <span>20</span>
