@@ -9,6 +9,7 @@ import Landing from './page/landing/Landing.jsx';
 import Buyer from './page/buyer/Buyer.jsx';
 import SearchResult from './page/searchResult/SearchResult.jsx';
 import PropertyDetails from './page/propertyDetails/PropertyDetails.jsx';
+import About from './page/about/About.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/details",
     element: <PropertyDetails />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
 ]);
 
