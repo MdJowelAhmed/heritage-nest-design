@@ -19,7 +19,7 @@ const Testimonials = () => {
 
                     <div className='text-center'>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3flIHsvZtK3eU7tEnp-LSEjNznTZCn0dkcA&s" alt="profile pic" className='h-16 w-16 rounded-full mx-auto' />
-                        <h3 className='text-xl font-semibold font-montserrat'>Tony Stark</h3>
+                        <h3 className='text-xl font-semibold font-montserrat'>Jowel Ahmed</h3>
                     </div>
                 </div>
                 <div className='w-[592px] p-8 bg-[#ECF5FF]'>
@@ -33,14 +33,11 @@ const Testimonials = () => {
                     <p className='font-poppins text-[#818181] mb-9 text-center'>The level of security provided by CypherPlay is unmatched. I feel confident using my card for both everyday purchases and travel. It's the peace of mind I was looking for.</p>
 
                     <div className='text-center'>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3flIHsvZtK3eU7tEnp-LSEjNznTZCn0dkcA&s" alt="profile pic" className='h-16 w-16 rounded-full mx-auto' />
+                        <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?s=612x612&w=0&k=20&c=8ssXDNTp1XAPan8Bg6mJRwG7EXHshFO5o0v9SIj96nY=" alt="profile pic" className='h-16 w-16 rounded-full mx-auto' />
                         <h3 className='text-xl font-semibold font-montserrat'>Tony Stark</h3>
                     </div>
                 </div>
             </div>
-            {/* <div className=''> 
-                <p className='bg-[#EE6611] h-2 w-5 rounded-md text-center'>.</p>
-            </div> */}
         </div>
     );
 };

@@ -14,7 +14,7 @@ const NewProperties = () => {
                     {/* 1st card  */}
                     <div className="w-[385px] p-6 shadow-md">
                         <div className="mb-6 relative">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZzFANuyYwNOBsuPpNGmI9hlUJ7NdnouTQ4A&s" alt="hotel" className="w-full" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBiAgaz7A7W0JoLoRcvunOGe7RbGRReAEJYg&s" alt="hotel" className="w-[385px] h-[200px]" />
                             <div className="absolute flex items-center gap-2 bg-white bottom-5 left-3 px-2">
                                 <CiImageOn />
                                 <span>20</span>
@@ -43,7 +43,7 @@ const NewProperties = () => {
                     {/* 1st card  */}
                     <div className="w-[385px] p-6 shadow-md">
                         <div className="mb-6 relative">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZzFANuyYwNOBsuPpNGmI9hlUJ7NdnouTQ4A&s" alt="hotel" className="w-full" />
+                            <img src="https://media.istockphoto.com/id/1050564510/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=ZYEso7dgPl889aYddhY2Fj3GOyuwqliHkbbT8pjl_iM=" alt="hotel" className="w-[385px] h-[200px]" />
                             <div className="absolute flex items-center gap-2 bg-white bottom-5 left-3 px-2">
                                 <CiImageOn />
                                 <span>20</span>
@@ -72,7 +72,7 @@ const NewProperties = () => {
                     {/* 1st card  */}
                     <div className="w-[385px] p-6 shadow-md">
                         <div className="mb-6 relative">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZzFANuyYwNOBsuPpNGmI9hlUJ7NdnouTQ4A&s" alt="hotel" className="w-full" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb0qvcx38xOZNPiLwbLwOa8K8LWP2S1m30Em6iL9Wc6z3QxP7_GgONmtr54_pqbZA29po&usqp=CAU" alt="hotel" className="w-[385px] h-[200px]" />
                             <div className="absolute flex items-center gap-2 bg-white bottom-5 left-3 px-2">
                                 <CiImageOn />
                                 <span>20</span>

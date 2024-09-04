@@ -17,15 +17,15 @@ const OthersService = () => {
                 <div className="w-96 bg-[#ECF5FF] flex  p-6 gap-8">
                     <AiOutlineHome className="w-20 h-12 rounded-sm px-1 bg-[#EE6611] text-white" />
                     <div>
-                        <h2 className="text-[24px] font-montserrat font-semibold mb-4 text-[#333333]">Advanced Property Search</h2>
-                        <p className="text-[#818181] text-sm  font-poppins font-medium">Effortlessly find your dream property with advanced search filters.</p>
+                        <h2 className="text-[24px] font-montserrat font-semibold mb-4 text-[#333333]">Virtual Tours and Multimedia</h2>
+                        <p className="text-[#818181] text-sm  font-poppins font-medium">Explore properties through immersive virtual tours and HD photos.</p>
                     </div>
                 </div>
                 <div className="w-96 bg-[#ECF5FF] flex  p-6 gap-8 ">
                     <AiOutlineHome className="w-20 h-12 rounded-sm px-1 bg-[#EE6611] text-white" />
                     <div>
-                        <h2 className="text-[24px] font-montserrat font-semibold mb-4 text-[#333333]">Advanced Property Search</h2>
-                        <p className="text-[#818181] text-sm font-poppins font-medium">Effortlessly find your dream property with advanced search filters.</p>
+                        <h2 className="text-[24px] font-montserrat font-semibold mb-4 text-[#333333]">Secure Online Transactions</h2>
+                        <p className="text-[#818181] text-sm font-poppins font-medium">Ensure secure transactions and e-sign documents seamlessly online.</p>
                     </div>
                 </div>
             </div>
